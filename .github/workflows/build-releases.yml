@@ -1,4 +1,4 @@
-name: build-v-tags
+name: build-releases
 
 on:
   push:
