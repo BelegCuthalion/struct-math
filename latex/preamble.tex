@@ -1,0 +1,20 @@
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{authblk}
+\usepackage[mathscr]{eucal}
+\usepackage{amssymb}
+\usepackage{enumitem}
+
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}[section]
+\renewcommand{\abstractname}{\vspace{-\baselineskip}} % hides abstract title
+\renewcommand{\thethm}{\arabic{section}.\arabic{thm}}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{cor}[thm]{Corollary}
+\theoremstyle{definition}
+\newtheorem{dfn}[thm]{Definition}
+\newtheorem{exam}[thm]{Example}
+\newtheorem{rem}[thm]{Remark}
+\newtheorem{nota}[thm]{Notation}
+\newtheorem{exer}[thm]{Exercise}
